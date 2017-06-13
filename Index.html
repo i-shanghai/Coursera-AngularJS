@@ -16,6 +16,12 @@
     My Age : {{showMyAge()}}
       <br/>
       <input type="text"  ng-model="FirstNum" name="" value="" placeholder="First Num">*<input type="text"  ng-model="SecondNum" name="" value="" placeholder="Second Num">={{FirstNum*SecondNum}}
+
+      <br/>
+      <input type="text"
+       ng-model="chartString"
+       ng-keyup="displayNumberic();" />
+      the total of name is {{totalValue}}
 </div>
   </body>
 </html>
